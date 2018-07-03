@@ -1,0 +1,29 @@
+<!-- 
+	Tutorial Link:
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Playing with HTML5 File API</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="form-container">
+			<form method="post">
+				<div>
+					<label for="image_uploads">Choose images to upload (PNG, JPG, JPEG)</label>
+					<input type="file" name="image_uploads" id="image_uploads" accept="image/png, image/jpg, image/jpeg" multiple>
+				</div>
+				<div class="preview">No files currently selected for upload</div>
+				<!-- <button>Submit</button> -->
+			</form>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
